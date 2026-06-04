@@ -1,0 +1,26 @@
+{
+  "name": "emerald-empire",
+  "version": "4.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev:api": "node server/server.js",
+    "dev:site": "echo \"Подключите emerald-empire-site.jsx к вашему React/Vite бандлеру\""
+  }
+}
+{
+  "name": "emerald-empire",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  }
+}
